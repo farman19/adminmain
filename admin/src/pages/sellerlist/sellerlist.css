@@ -6,7 +6,7 @@
 .seller-list-section{
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 10px;
 }
 .seller-list-section .seller-list-header{
@@ -87,7 +87,7 @@
 }
 .seller-list-header .seller-list-box{
     width: 100%;
-    height: 600px;
+    height: 500px;
     /* background-color: blanchedalmond; */
     padding: 15px;
 }
@@ -96,7 +96,7 @@
     height: 100%;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px 0.5px #918b8b;
+    box-shadow: 0px 0px 8px 0.5px #cfc8c8;
 }
 .seller-list-table .seller-table-top{
     width: 100%;

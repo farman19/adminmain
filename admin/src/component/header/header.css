@@ -10,19 +10,22 @@
     padding: 10px;
 }
 .header-section .top-left-side{
-    width: 350px;
+    width: 200px;
     height: 100%;
     /* background-color: #4960d7; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    
 }
 .top-left-side .logo-box{
-    width: 250px;
+    width: 160px;
     height: 100%;
-    /* background-color: burlywood; */
+    background-color: burlywood;
     display: flex;
+    padding: 5px;
+    gap: 5px;
 }
 
 .logo-box .symbole{
@@ -36,16 +39,17 @@
     object-fit: cover;
 }
 .logo-box .logo-text{
-    width: 200px;
+    width: 150px;
     height: 100%;
+    padding: 5px;
 }
 .logo-text img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.sidebar-btn{
-    width: 70px;
+.top-left-side .sidebar-btn{
+    width: 50px;
     height: 100%;
     /* background-color: aliceblue; */
     display: flex;
@@ -55,8 +59,8 @@
 }
 .sidebar-btn button{
    min-width: 20px;
-   width: 40px;
-   height: 40px;
+   width: 30px;
+   height: 30px;
    background-color: #7588e5;
 }
 .sidebar-btn button svg{

@@ -79,7 +79,7 @@
     padding: 10px 15px;
     text-align: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 10px;
     text-transform: capitalize;
     color: #fff;
 
@@ -121,6 +121,7 @@
 .sidebar-section ul li .dropmenu{
     padding: 0px 55px;
     position: relative;
+    
    
 }
 .dropmenu::before{
@@ -136,10 +137,12 @@
     width: 100%;
     list-style: none;
     padding-top: 8px ;
+   
 }
 .sidebar-section ul li .dropmenu li a{
     color: #fff;
     text-decoration: none;
+    font-size: 0.5em;
     font-weight: 500;
   
     
@@ -147,14 +150,17 @@
 
 .sidebar-section ul li .dropmenuwraper.colapsed{
     height: 0px;
+   
 }
 .dropmenuwraper.colapsed .dropmenu{
    opacity: 0;
 }
 .sidebar-section ul li .dropmenuwraper.colapse{
+  
    
     height: auto;
 }
 .dropmenuwraper.colapse .dropmenu{
    opacity: 1;
+  
 }
