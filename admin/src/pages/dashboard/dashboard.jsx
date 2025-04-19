@@ -28,11 +28,11 @@ const DashboardPage = () => {
                         <div className="dashboard-right">
                             <div className="add-inputs">
                                 <div className="select-menu">
-                                    <FormControl className="f-bg" size="small" fullWidth  >
-                                        <InputLabel className="s-bg" >All Zone</InputLabel>
-                                        <Select name="role">
+                                    <FormControl className="f-bg" size="small"  fullWidth  >
+                                       
+                                        <Select  name="role">
 
-                                            <MenuItem value="">None</MenuItem>
+                                            <MenuItem className="menusize" value="">None</MenuItem>
                                             <MenuItem value="customer">Dehli</MenuItem>
                                             <MenuItem value="deliverymen">UP</MenuItem>
 
@@ -425,10 +425,13 @@ const DashboardPage = () => {
                                             <h4>Smart Shopping</h4>
                                             </div>
                                             
-                                            <div className="sold-box">
-                                                <div className="sold-count">
-                                                    <h4>sold: 3</h4>
-                                                </div>
+                                            <div className="rated-box">
+                                            <div className="like-count">
+                                                   <h4>4</h4>
+                                                    </div>
+                                                    <div className="like-img">
+                                                        <img src="./images/star.png" alt=""/>
+                                                    </div>
                                                
                                             </div>
 

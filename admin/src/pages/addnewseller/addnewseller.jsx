@@ -13,7 +13,7 @@ import { Button } from "@mui/material";
 
  
 const AddNewSeller = ()=>{
-    const[imagepreview,setImagePreview] = useState('./images/defaultimg.png')
+    const[imagepreview,setImagePreview] = useState(null)
 
     
      const [addseller,setAddSeller] = useState({
@@ -115,10 +115,10 @@ const AddNewSeller = ()=>{
                        </div>
                        <div className="add-inputs">
                        <div className="select-menu">
-                                        <FormControl className="f-bg" size="large" fullWidth  >
-                                            <InputLabel className="s-bg" >Select Role</InputLabel>
+                                        <FormControl className="f-bg" size="small" fullWidth  >
+                                       <InputLabel value="" disabled >Select Role</InputLabel>
                                             <Select name="role" value={addseller.role} onChange={(e)=>setAddSeller({...addseller,role:e.target.value})}>
-
+                                             
                                                 <MenuItem value="">None</MenuItem>
                                                 <MenuItem value="customer">Customer</MenuItem>
                                                 <MenuItem value="deliverymen">Deliveryman</MenuItem>
@@ -138,20 +138,18 @@ const AddNewSeller = ()=>{
                         </div>
                         <div className="image-show-box">
                             <div className="image-show">
-                            {addseller && <img src={imagepreview} alt="" />}
+                                <label for="imagefile">
+                                {addseller && <img src={imagepreview} alt="" />}
+                                <input type="file" id="imagefile" onChange={handleImageChange} alt=""/>
+                                </label>
+                            
                             </div>
                         </div>
                         <div className="image-size">
                         <div className="image-size-heading">
                             <h4>Employee Image Size Max 2 MB *</h4>
                         </div>
-                        <div className="image-choose">
-                        <input type="file"  name="sellerimage"    accept="image/*"  onChange={handleImageChange} />
-           
-         
-           
-          
-                        </div>
+                       
                         </div>
                     </div>
                 </div>

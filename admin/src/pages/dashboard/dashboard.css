@@ -13,7 +13,7 @@
 .dashboard-section .dashboard-header{
     width: 100%;
     height: 100%;
-    background-color: rgb(173, 201, 224);
+    /* background-color: rgb(173, 201, 224); */
     overflow-y: scroll;
 }
 .dashboard-header::-webkit-scrollbar{
@@ -51,7 +51,7 @@
  align-items: center;
 }
 .top-dash-icon svg{
-    font-size: 2em;
+    font-size: 1.5em;
     color: #303636;
 }
 .dashboard-left .dash-heading-para{
@@ -61,7 +61,7 @@
 }
 .dash-heading-para h2{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     color: #303636;
 }
 .dash-heading-para p{
@@ -97,35 +97,41 @@
 .add-inputs .select-menu .f-bg{
     background-color:#fff;
     border-radius: 5px;
+    
 
 }
+
 
 /* dashboard-cart-section */
 
 .dashboard-header .dashboard-cart-section{
     width: 100%;
     height: 350px;
-    background-color: #fff;
+    /* background-color: #c6f35d; */
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px 1px #ede8e8;
+    
+   
 }
 .dashboard-cart-section .dashboard-cart-box{
     width: 100%;
     height: 100%;
-    /* background-color: burlywood; */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+   
 }
 .dashboard-cart-box .cart-part1{
     width: 100%;
-    height: 200px;
+    height: 180px;
     /* background-color: rgb(131, 131, 185); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .cart-part1 .cart-1{
-    width: 230px;
-    height: 150px;
+    width: 210px;
+    height: 140px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -209,8 +215,8 @@
     
 }
 .uapu-part1 .uapu1{
-      width: 230px; 
-      height: 60px;
+    width: 210px;
+    height: 55px;
       background-color: rgb(238, 245, 250);
       border-radius: 5px;
       display: flex;
@@ -228,12 +234,12 @@
      
 }
 .uapu1 .dlinfo h4{
-    font-size: 1.3em;
+    font-size: 10px;
     font-weight: 550;
 }
 .uapu1 .dlinfo  .line{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     /* background-color: #2cfa4b;*/
 } 
 .uapu1  .dlinfo .line img{
@@ -258,7 +264,7 @@
 .dashboard-header .view-section{
     width: 100%;
     height: 400px;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -613,7 +619,7 @@
 .dashboard-header .rated-delivery-customer{
     width: 100%;
     height: 400px;
-    background-color: rgb(198, 198, 159);
+    /* background-color: rgb(198, 198, 159); */
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -736,6 +742,41 @@
     font-weight: 600;
     color: #90989e;
 }
+.dashboard-header .rated-delivery-customer .top-rated-item .top-rated-body .top-item-box .rated-s-box .rated-carts .rated-box{
+    width: 30px;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-header .rated-delivery-customer .top-rated-item .top-rated-body .top-item-box .rated-s-box .rated-carts .rated-box .like-count{
+    width: 14px;
+    height: 14px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-header .rated-delivery-customer .top-rated-item .top-rated-body .top-item-box .rated-s-box .rated-carts .rated-box .like-count h4{
+    font-size: 13px;
+    font-weight: 600;
+    color: #6c7984;
+}
+.dashboard-header .rated-delivery-customer .top-rated-item .top-rated-body .top-item-box .rated-s-box .rated-carts .rated-box .like-img{
+    width: 13px;
+    height: 13px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-header .rated-delivery-customer .top-rated-item .top-rated-body .top-item-box .rated-s-box .rated-carts .rated-box .like-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .dashboard-header .rated-delivery-customer .top-rated-item .top-rated-body .top-item-box .rated-s-box .rated-carts .sold-box{
     width: 50px;
