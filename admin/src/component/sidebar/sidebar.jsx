@@ -1,6 +1,8 @@
 import React,{useState} from "react";
 import './sidebar.css'
 import { MdDashboard } from "react-icons/md";
+import { FaUser } from "react-icons/fa";
+import { IoMdPersonAdd } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
@@ -29,7 +31,7 @@ const isOpenDropmenu = (index)=>{
             <li>
               <Link to='/admin'>
                <Button>
-                    <span className="side-icon"><MdDashboard/></span>
+                    <span className="side-icon"><FaUser/></span>
                    Admin
                     <span className="arrow"><IoIosArrowForward/></span>
                 </Button>
@@ -38,7 +40,7 @@ const isOpenDropmenu = (index)=>{
             <li>
             
                <Button className={`${activeTab===1  ? 'active':""}`} onClick={()=>isOpenDropmenu(1)}>
-                    <span className="side-icon"><MdDashboard/></span>
+                    <span className="side-icon"><IoMdPersonAdd/></span>
                   Seller Section
                     <span className="arrow"><IoIosArrowForward/></span>
                 </Button>
@@ -51,15 +53,7 @@ const isOpenDropmenu = (index)=>{
                       </div>
                 
             </li>
-            <li>
-              <Link to='/addproduct'>
-               <Button>
-                    <span className="side-icon"><MdDashboard/></span>
-                   Add Product
-                    <span className="arrow"><IoIosArrowForward/></span>
-                </Button>
-                </Link>
-            </li>
+           
 
           
           </ul>

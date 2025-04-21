@@ -79,7 +79,7 @@
     padding: 10px 15px;
     text-align: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 15px;
     text-transform: capitalize;
     color: #fff;
 
@@ -99,7 +99,7 @@
 .side-icons svg{
     color: #fff;
     opacity: 0.8;
-    font-size: 2em;
+    font-size: 15px;
 }
 .sidebar-section ul li button .arrow{
   margin-left: auto;
@@ -113,7 +113,7 @@
 .sidebar-section ul li button .arrow svg{
     color: #fff;
     opacity: 0.8;
-    font-size: 2em;
+    font-size: 15px;
 }
 .sidebar-section ul  .dropmenuwraper{
     transition: all 0.3s ease-in-out;
@@ -142,7 +142,7 @@
 .sidebar-section ul li .dropmenu li a{
     color: #fff;
     text-decoration: none;
-    font-size: 0.5em;
+    font-size: 11px;
     font-weight: 500;
   
     

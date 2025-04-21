@@ -65,8 +65,8 @@
     width: 100%;
     height: 100%;
     /* background-color: rgb(205, 89, 50); */
-    box-shadow: 0px 0px 2px 1px #ede8e8;
-    border-radius: 10px;
+    /* box-shadow: 0px 0px 2px 1px #ede8e8;
+    border-radius: 10px; */
 }
 .e-genral-info .e-genral-info-top{
     width: 100%;
@@ -111,12 +111,27 @@
 .addnew-e-form-box .addnew-left{
     width: 50%;
     height: 100%;
-    /* background-color: blueviolet; */
+    /* background-color: blueviolet;  */
+    padding: 10px;
+   
+   
+   
+}
+.addnew-e-form-box .addnew-left .addnew-left-form{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+    border-radius: 8px;
+   
 }
 .addnew-left .addnew-input-box{
     width: 100%;
-    height: 80px;
-    /* background-color: rgb(107, 83, 52); */
+    height: 70px;
+    /* background-color: orange; */
+   
+
+    
 }
 .addnew-input-box .boxf{
     width: 125px;
@@ -142,8 +157,8 @@
 }
 .addnew-input-box .add-inputs{
     width: 100%;
-    height: 60px;
-    /* background-color: blueviolet; */
+    height: 50px;
+    /* background-color: rgb(114, 92, 135); */
     padding: 0px 15px 0px 15px;
 }
 .add-inputs .select-menu .f-bg{
@@ -236,9 +251,170 @@
    color: #303636;
 }
 
+.addnew-seller-header .location-info{
+    width: 100%;
+    height: 400px;
+    /* background-color: yellow; */
+    padding: 10px;
+    
+}
+.location-info .seller-location{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+}
+.location-info .seller-location .location-top{
+    width: 100%;
+    height: 35px;
+    /* background-color: aliceblue; */
+}
+.location-info .seller-location .location-top .location-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.location-info .seller-location .location-top .location-heading .location-icon{
+    width: 40px;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.location-info .seller-location .location-top .location-heading .location-icon svg{
+    font-size: 1.2em;
+    color: #e1541d;
+}
+.location-info .seller-location .location-top .location-heading h4{
+    font-size: 14px;
+    color: #606b6b;
+}
+.location-info .seller-location .location-track-box{
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(204, 131, 97); */
+}
+.location-info .seller-location .location-track-box .location-track-top{
+    width: 100%;
+    height: 70px;
+    /* background-color: skyblue; */
+    display: flex;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: palevioletred; */
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-left .city-zone{
+    width: 100px;
+    height: 30px;
+    /* background-color: burlywood; */
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303636;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input{
+    width: 100%;
+    height: 35px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input .city-select{
+    width: 95%;
+    height: 35px;
+    background-color:#fff;
+    font-size: 14px;
+    color: #303636;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input .city-select input{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: palevioletred; */
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-right .city-zone{
+    width: 200px;
+    height: 30px;
+    /* background-color: burlywood; */
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303636;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input{
+    width: 100%;
+    height: 35px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input .city-select{
+    width: 95%;
+    height: 35px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #303636;
+}
+.location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input .city-select input{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+}
+.location-info .seller-location .location-track-box .map-track{
+  width: 100%;
+  height: 230px;
+  /* background-color: aqua; */
+  display: flex;
+}
+.location-info .seller-location .location-track-box .map-track .map-left{
+    width: 35%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    padding: 10px;
+}
+.location-info .seller-location .location-track-box .map-track .map-right{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(135, 113, 156); */
+    padding: 10px;
+}
+.location-info .seller-location .location-track-box .map-track .map-right .mapframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+
+
+
+
 .addnew-seller-header .account-info{
     width: 100%;
-    height: 250px;
+    height: 230px;
     /* background-color: rgb(163, 91, 28); */
     padding: 15px;
 }
@@ -247,7 +423,7 @@
     height: 100%;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px #798989;
+    box-shadow: 0px 0px 2px 1px #ede8e8
 }
 .account-epp-info .account-epp-top{
     width: 100%;
@@ -255,7 +431,7 @@
     /* background-color: skyblue; */
 }
 .account-epp-top .epp-heading{
-    width: 250px;
+    width: 200px;
     height: 100%;
     /* background-color: yellow; */
     display: flex;
@@ -272,9 +448,11 @@
 }
 .epp-icon svg{
     font-size: 1.2em;
-    color: #232929;
+    color: #303636;
 }
 .epp-heading h3{
+    font-size: 15px;
+    font-weight: 600;
     color: #798989;
 }
 .account-epp-info .e-p-c{
@@ -287,7 +465,7 @@
     
 }
 .e-p-c .e-box{
-    width: 480px;
+    width: 260px;
     height: 80%;
     /* background-color: #fff; */
 }
@@ -295,6 +473,7 @@
     width: 200px;
     height: 30px;
     font-weight: 600;
+    font-size: 15px;
     color: #232929;
     /* background-color: burlywood; */
     display: flex;
@@ -302,16 +481,19 @@
 }
 .e-box .e-input{
    width: 100%;
-   height: 40px;
+   height: 30px;
+   /* background-color: #232929; */
 
 }
 .e-input input{
     width: 100%;
     height: 100%;
     outline: none;
-    border: 0.5px solid #798989;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
     padding-left: 10px;
-    font-size: 1.2em;
+    font-size: 12px;
+    border-radius: 3px;
+    border: none;
     
 }
 .e-lable .pass-war-icon{
@@ -323,7 +505,7 @@
     align-items: center;
 }
 .pass-war-icon svg{
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 .srbtn-box {
     width: 100%;
@@ -345,16 +527,16 @@
 }
 
 .srbtn-box .r1btn .rst-btn{
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 30px;
     background-color: #d4d0e8;
-    color: #232929;
+    color: #303636;
     font-weight: 550;
 }
 
-.srbtn-box .r1btn .subt-btn {
-    width: 100px;
-    height: 40px;
+.srbtn-box .r1btn .subt-btn{
+    width: 90px;
+    height: 30px;
     background-color: #aba4a4;
     color: #fff;
 

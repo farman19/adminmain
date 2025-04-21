@@ -19,7 +19,7 @@ const SellerList = () => {
                         <div className="seller-heading">
                             <div className="seller-icon"><LuUserRoundCog /></div>
                             <h2>Seller List</h2>
-                            <div className="seller-count"><h3>0</h3></div>
+                            <div className="seller-count"><h4>0</h4></div>
                         </div>
                         <div className="add-btn-seller">
                             <Link to="/addnewseller"> <Button><div className="a-btn-e-icon"><CgAdd /></div>Add New seller</Button></Link>

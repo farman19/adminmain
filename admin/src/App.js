@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify';
 
 import SellerList from './pages/sellerlist/sellerlist';
 import AddNewSeller from './pages/addnewseller/addnewseller';
-import AddProduct from './pages/addproduct/addproduct';
+
 import DashboardPage from './pages/dashboard/dashboard';
 
 function App() {
@@ -34,9 +34,6 @@ function App() {
         {
           path:'/addnewseller',
           element: <AddNewSeller/>
-        },{
-          path:'/addproduct',
-          element:<AddProduct/>
         }
       ]
     },
