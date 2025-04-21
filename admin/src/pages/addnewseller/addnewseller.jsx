@@ -8,7 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import { FaMapLocationDot } from "react-icons/fa6";
 import Select from '@mui/material/Select';
-import { Button, ListSubheader, InputBase } from "@mui/material";
+import { Button, ListSubheader, InputBase, Box } from "@mui/material";
 
 
 
@@ -212,7 +212,8 @@ const AddNewSeller = () => {
                                                     <div className="city-input">
 
                                                         <Select className="city-select"  value={datashow} onChange={handleAddTime}   >
-                                                            <ListSubheader>
+                                                            <ListSubheader >
+                                                                <Box sx={{width:"400px"}}>
 
 
 
@@ -267,11 +268,11 @@ const AddNewSeller = () => {
 
                                                                 <Button
                                                                     onClick={handleAddTime}
-                                                                    sx={{ bgcolor: "#107980", size: "small", color: "#fff" }}
+                                                                    sx={{ bgcolor: "#107980", width:"80px", height:"35px", color: "#fff" }}
                                                                 >
                                                                     Done
                                                                 </Button>
-
+                                                              </Box>
                                                             </ListSubheader>
 
                                                         </Select>
