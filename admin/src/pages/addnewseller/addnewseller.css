@@ -102,7 +102,7 @@
 }
 .e-genral-info-box .addnew-e-form-box{
     width: 100%;
-    height: 350px;
+    height: 300px;
     /* background-color: rgb(212, 183, 144); */
     display: flex;
 }
@@ -134,54 +134,55 @@
     
 }
 .addnew-input-box .boxf{
-    width: 125px;
-    height: 30px;
-    /* background-color: burlywood; */
-    font-weight: 600;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #303636;
-}
-.addnew-input-box .boxp{
     width: 100px;
     height: 30px;
     /* background-color: burlywood; */
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #303636;
 }
-.addnew-input-box .add-inputs{
-    width: 100%;
-    height: 50px;
-    /* background-color: rgb(114, 92, 135); */
-    padding: 0px 15px 0px 15px;
-}
-.add-inputs .select-menu .f-bg{
-    background-color:#fff;
-    border-radius: 5px;
-}
 .addnew-input-box .add-input{
     width: 100%;
-    height: 30px;
-    /* background-color: blueviolet; */
-    padding: 0px 15px 0px 15px;
+    height: 35px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.add-input input{
+.addnew-input-box .add-input input{
     width: 90%;
-    height: 100%;
+    height: 30px;
     outline: none;
+    border: none;
     box-shadow: 0px 0px 2px 1px #ede8e8;
     padding-left: 10px;
     font-size: 12px;
-    border-radius: 3px;
+
+
+}
+.addnew-input-box .add-text{
+    width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addnew-input-box .add-text textarea{
+    width: 90%;
+    height: 100%;
+    outline: none;
     border: none;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+    padding-left: 10px;
+    padding-top: 5px;
     
 }
+
+
 .addnew-e-form-box .addnew-right{
     width: 50%;
     height: 100%;
@@ -205,7 +206,7 @@
 }
 .image-e-top h4{
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
    color: #303636;
 }
 .seller-image .image-show-box{
@@ -216,16 +217,55 @@
     justify-content: center;
     align-items: center;
 }
-.image-show-box .image-show input{
+.seller-image .image-show-box .show-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: forestgreen; */
+    flex-direction: column;
+    gap: 10px;
+}
+.seller-image .image-show-box .show-left  .shoplogo{
+    width: 100px;
+    height: 30px;
+    /* background-color: yellow; */
+}
+.seller-image .image-show-box .show-left .shoplogo h4{
+    font-size: 12px;
+    color: #7c8888;
+    font-weight: 600;
+}
+.image-show-box .show-left .image-show input{
     display: none;
 }
-.image-show-box .image-show{
+.image-show-box .show-left .image-show-cover input{
+    display: none;
+}
+.image-show-box .show-left .image-show{
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    background-color: #fff;
     border-radius: 10px;
+    border: 1px dashed #303636;
 }
+
 .image-show img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.image-show-box .show-left .image-show-cover{
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px dashed #303636;
+}
+.image-show-box .show-left .image-show-cover img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -238,7 +278,7 @@
     /* background-color: blue; */
 }
 .image-size .image-size-heading{
-    width: 300px;
+    width: 250px;
     height: 30px;
     /* background-color: gainsboro; */
     display: flex;
@@ -247,8 +287,8 @@
 }
 .image-size .image-size-heading h4{
     font-weight: 500;
-    font-size: 15px;
-   color: #303636;
+    font-size: 12px;
+   color: #7c8888;
 }
 
 .addnew-seller-header .location-info{
@@ -316,7 +356,7 @@
     height: 30px;
     /* background-color: burlywood; */
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,7 +372,7 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input .city-select{
     width: 95%;
-    height: 35px;
+    height: 30px;
     background-color:#fff;
     font-size: 14px;
     color: #303636;
@@ -354,7 +394,7 @@
     height: 30px;
     /* background-color: burlywood; */
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,7 +402,7 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input{
     width: 100%;
-    height: 35px;
+    height: 30px;
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
@@ -370,9 +410,9 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input .city-select{
     width: 95%;
-    height: 35px;
+    height: 30px;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     color: #303636;
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input .city-select input{
@@ -394,11 +434,61 @@
     /* background-color: yellowgreen; */
     padding: 10px;
 }
+.location-info .seller-location .location-track-box .map-track .map-left .map-latitude{
+    width: 100%;
+    height: 80px ;
+    /* background-color: skyblue; */
+}
+.location-info .seller-location .location-track-box .map-track .map-left .map-latitude .map-l{
+    width: 100px;
+    height: 30px;
+    /* background-color: yellow; */
+    line-height: 30px;
+    font-size: 12px;
+    color: #303636;
+    font-weight: 600;
+}
+.location-info .seller-location .location-track-box .map-track .map-left .map-latitude .map-linput{
+    width: 100%;
+    height: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-info .seller-location .location-track-box .map-track .map-left .map-latitude .map-linput input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 2px 1px #ede8e8;
+    outline: none;
+    border: none;
+}
 .location-info .seller-location .location-track-box .map-track .map-right{
     width: 70%;
     height: 100%;
     /* background-color: rgb(135, 113, 156); */
     padding: 10px;
+    position: relative;
+}
+.location-info .seller-location .location-track-box .map-track .map-right .map-searchbox{
+   width: 130px;
+   height: 30px;
+   /* background-color: yellow; */
+   position: absolute;
+   left: 38%;
+   top: 10px;
+}
+.location-info .seller-location .location-track-box .map-track .map-right .map-searchbox input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: #303636;
+    font-size: 10px;
+    outline: none;
+    border: 0.5px solid #d9d1d1;
+    z-index: 3;
+    
 }
 .location-info .seller-location .location-track-box .map-track .map-right .mapframe{
     width: 100%;
@@ -451,7 +541,7 @@
     color: #303636;
 }
 .epp-heading h3{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     color: #798989;
 }
@@ -473,7 +563,7 @@
     width: 200px;
     height: 30px;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     color: #232929;
     /* background-color: burlywood; */
     display: flex;
