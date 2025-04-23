@@ -24,17 +24,18 @@
     align-items: center;
 }
 .header-section .top-left-side{
-    width: 210px;
+    width: 300px;
     height: 100%;
     /* background-color: #4960d7; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
+   
     
 }
 .top-left-side .logo-box{
-    width: 160px;
+    width: 180px;
     height: 100%;
     /* background-color: burlywood; */
     display: flex;
@@ -43,7 +44,7 @@
 }
 
 .logo-box .symbole{
-    width: 50px;
+    width: 60px;
     height: 100%;
 
 }
@@ -53,7 +54,7 @@
     object-fit: cover;
 }
 .logo-box .logo-text{
-    width: 150px;
+    width: 160px;
     height: 100%;
     padding: 5px;
 }
@@ -63,7 +64,7 @@
     object-fit: cover;
 }
 .top-left-side .sidebar-btn{
-    width: 50px;
+    width: 60px;
     height: 100%;
     /* background-color: aliceblue; */
     display: flex;
@@ -72,13 +73,13 @@
     padding: 10px
 }
 .sidebar-btn button{
-   min-width: 20px;
-   width: 30px;
-   height: 30px;
+   min-width: 30px;
+   width: 40px;
+   height: 40px;
    background-color: #7588e5;
 }
 .sidebar-btn button svg{
-    font-size: 40px;
+    font-size: 2em;
     color: #fff;
 }
 /* top right side */
@@ -102,13 +103,13 @@
 }
 .message button{
     min-width: 20px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background-color: #c7e0eb;
     border-radius: 50%;
 }
 .message button svg{
-    font-size: 35px;
+    font-size: 2em;
     color: #708283;
 }
 .user-img-sms{
@@ -168,7 +169,7 @@
 .user-sms-info .u-s-name h3{
     color: #232929;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.9em;
 }
 .user-sms-info .sms-chat{
     width: 100%;
@@ -178,7 +179,7 @@
 .user-sms-info .sms-chat  p{
    overflow: hidden;
    color: #7b8d8e;
-   font-size: 10px;
+   font-size: 0.8em;
 }
 .user-img-sms .sms-count{
     width: 40px;
@@ -198,7 +199,7 @@
     align-items: center;
     color: #fff;
     border-radius: 50%;
-    font-size: 10px;
+    font-size: 0.9em;
 }
 .top-right-side .my-account-box{
     width: 210px;
@@ -244,12 +245,22 @@
 .my-acc-info-box .my-h h3{
     color: #232929;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 0.9em;
+   
 }
+.my-acc-info-box .my-e{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    
+    overflow: hidden;
+}
+
 .my-acc-info-box .my-e p{
     font-weight: 500;
     color: #7b8d8e;
-    font-size: 8px;
+    font-size: 0.8em;
+   
     
 }
 

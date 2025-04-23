@@ -188,7 +188,7 @@ const Header = () => {
                                             <h3>Vinit Kumar</h3>
                                         </div>
                                         <div className="my-e">
-                                            <p>Demowidy@gmail.com</p>
+                                            <p>Demowidydfgfgh@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>

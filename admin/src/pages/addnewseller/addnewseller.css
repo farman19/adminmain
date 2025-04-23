@@ -23,11 +23,11 @@
 
 .addnew-seller-header .addnew-e-top{
     width: 100%;
-    height: 50px;
+    height: 60px;
     /* background-color: aquamarine; */
 }
 .addnew-e-top .addnew-e-heading{
-    width: 200px;
+    width: 260px;
     height: 100%;
     /* background-color: chocolate; */
     display: flex;
@@ -50,7 +50,7 @@
 }
 .addnew-e-heading h2{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.4em;
     color: #303636;
 
 }
@@ -74,7 +74,7 @@
     /* background-color: cadetblue; */
 }
 .e-genral-info-top .e-genral-heading{
-    width: 200px;
+    width: 230px;
     height: 100%;
     /* background-color: skyblue; */
     display: flex;
@@ -95,7 +95,7 @@
 }
 .e-genral-heading h3{
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1.2em;
     color: #606b6b;
 
     
@@ -127,18 +127,18 @@
 }
 .addnew-left .addnew-input-box{
     width: 100%;
-    height: 70px;
+    height: 80px;
     /* background-color: orange; */
    
 
     
 }
 .addnew-input-box .boxf{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     /* background-color: burlywood; */
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +146,7 @@
 }
 .addnew-input-box .add-input{
     width: 100%;
-    height: 35px;
+    height: 40px;
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
@@ -154,18 +154,18 @@
 }
 .addnew-input-box .add-input input{
     width: 90%;
-    height: 30px;
+    height: 40px;
     outline: none;
     border: none;
     box-shadow: 0px 0px 2px 1px #ede8e8;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 15px;
 
 
 }
 .addnew-input-box .add-text{
     width: 100%;
-    height: 70px;
+    height: 80px;
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
@@ -179,6 +179,7 @@
     box-shadow: 0px 0px 2px 1px #ede8e8;
     padding-left: 10px;
     padding-top: 5px;
+    font-size: 15px;
     
 }
 
@@ -206,7 +207,7 @@
 }
 .image-e-top h4{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1.1em;
    color: #303636;
 }
 .seller-image .image-show-box{
@@ -228,12 +229,12 @@
     gap: 10px;
 }
 .seller-image .image-show-box .show-left  .shoplogo{
-    width: 100px;
+    width: 130px;
     height: 30px;
     /* background-color: yellow; */
 }
 .seller-image .image-show-box .show-left .shoplogo h4{
-    font-size: 12px;
+    font-size: 1.1em;
     color: #7c8888;
     font-weight: 600;
 }
@@ -244,7 +245,7 @@
     display: none;
 }
 .image-show-box .show-left .image-show{
-    width: 100px;
+    width: 130px;
     height: 100px;
     background-color: #fff;
     border-radius: 10px;
@@ -287,7 +288,7 @@
 }
 .image-size .image-size-heading h4{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.9em;
    color: #7c8888;
 }
 
@@ -307,11 +308,11 @@
 }
 .location-info .seller-location .location-top{
     width: 100%;
-    height: 35px;
+    height: 40px;
     /* background-color: aliceblue; */
 }
 .location-info .seller-location .location-top .location-heading{
-    width: 200px;
+    width: 240px;
     height: 100%;
     /* background-color: salmon; */
     display: flex;
@@ -328,12 +329,12 @@
     
 }
 .location-info .seller-location .location-top .location-heading .location-icon svg{
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #e1541d;
 }
 .location-info .seller-location .location-top .location-heading h4{
-    font-size: 14px;
-    color: #606b6b;
+    font-size: 1.1em;
+    color: #7c8888;
 }
 .location-info .seller-location .location-track-box{
     width: 100%;
@@ -356,7 +357,7 @@
     height: 30px;
     /* background-color: burlywood; */
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,7 +365,7 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input{
     width: 100%;
-    height: 35px;
+    height: 40px;
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
@@ -372,14 +373,14 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input .city-select{
     width: 95%;
-    height: 30px;
+    height: 40px;
     background-color:#fff;
-    font-size: 14px;
+    font-size: 1em;
     color: #303636;
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-left .city-input .city-select input{
     width: 100%;
-    height: 25px;
+    height: 40px;
     outline: none;
     border: none;
     box-shadow: 0px 0px 2px 1px #ede8e8;
@@ -394,7 +395,7 @@
     height: 30px;
     /* background-color: burlywood; */
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -402,7 +403,7 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input{
     width: 100%;
-    height: 30px;
+    height: 40px;
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
@@ -410,7 +411,7 @@
 }
 .location-info .seller-location .location-track-box .location-track-top .track-top-right .city-input .city-select{
     width: 95%;
-    height: 30px;
+    height: 40px;
     background-color: #fff;
     font-size: 12px;
     color: #303636;
@@ -424,7 +425,7 @@
 }
 .location-info .seller-location .location-track-box .map-track{
   width: 100%;
-  height: 230px;
+  height: 240px;
   /* background-color: aqua; */
   display: flex;
 }
@@ -444,7 +445,7 @@
     height: 30px;
     /* background-color: yellow; */
     line-height: 30px;
-    font-size: 12px;
+    font-size: 1em;
     color: #303636;
     font-weight: 600;
 }
@@ -458,7 +459,7 @@
 }
 .location-info .seller-location .location-track-box .map-track .map-left .map-latitude .map-linput input{
     width: 100%;
-    height: 30px;
+    height: 40px;
     padding-left: 10px;
     box-shadow: 0px 0px 2px 1px #ede8e8;
     outline: none;
@@ -541,7 +542,7 @@
     color: #303636;
 }
 .epp-heading h3{
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 600;
     color: #798989;
 }
@@ -563,15 +564,15 @@
     width: 200px;
     height: 30px;
     font-weight: 600;
-    font-size: 12px;
-    color: #232929;
+    font-size: 1em;
+    color: #303636;
     /* background-color: burlywood; */
     display: flex;
     line-height: 30px;
 }
 .e-box .e-input{
    width: 100%;
-   height: 30px;
+   height: 40px;
    /* background-color: #232929; */
 
 }
@@ -581,7 +582,7 @@
     outline: none;
     box-shadow: 0px 0px 2px 1px #ede8e8;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 1em;
     border-radius: 3px;
     border: none;
     

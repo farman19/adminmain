@@ -182,7 +182,7 @@ const DashboardPage = () => {
                     <div className="view-section">
                         <div className="top-selling-1">
                             <div className="top-selling-head">
-                                <div className="top-heading">
+                                <div className="top-sell-heading">
                                     <h4>Top selling stores</h4>
                                 </div>
                                 <div className="view-link">
@@ -423,6 +423,7 @@ const DashboardPage = () => {
                                             </div>
                                             <div className="item-name">
                                             <h4>Smart Shopping</h4>
+                                           
                                             </div>
                                             
                                             <div className="rated-box">
@@ -448,7 +449,7 @@ const DashboardPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="top-rated-item">
+                        <div className="top-rated-men">
                         <div className="top-rated-head">
                                 <div className="top-heading">
                                     <h4>Top Deliveryman</h4>
@@ -465,13 +466,14 @@ const DashboardPage = () => {
                                             <div className="popular-s-img">
                                             <img src="./images/shop.png"  alt=""/>
                                             </div>
-                                            <div className="item-name">
+                                            <div className="item-name-number">
                                             <h4>Smart Shopping</h4>
+                                            <p>+91*********</p>
                                             </div>
                                             
                                             <div className="sold-box">
                                                 <div className="sold-count">
-                                                    <h4>Orders: 3</h4>
+                                                    <h4>Orders: 13</h4>
                                                 </div>
                                                
                                             </div>
@@ -489,10 +491,10 @@ const DashboardPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="top-rated-item">
+                        <div className="top-rated-men">
                         <div className="top-rated-head">
                                 <div className="top-heading">
-                                    <h4>Top Customers</h4>
+                                    <h4>Top Deliveryman</h4>
                                 </div>
                                 <div className="view-link">
                                     <Link to="#">view all</Link>
@@ -506,14 +508,14 @@ const DashboardPage = () => {
                                             <div className="popular-s-img">
                                             <img src="./images/shop.png"  alt=""/>
                                             </div>
-                                            <div className="item-name">
+                                            <div className="item-name-number">
                                             <h4>Smart Shopping</h4>
-                                           
+                                            <p>+91*********</p>
                                             </div>
                                             
                                             <div className="sold-box">
                                                 <div className="sold-count">
-                                                    <h4>Orders: 3</h4>
+                                                    <h4>Orders: 13</h4>
                                                 </div>
                                                
                                             </div>
